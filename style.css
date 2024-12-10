@@ -1,0 +1,70 @@
+body {
+    background-color:black ;
+  }
+
+  h1 {
+    color: rgb(0,255,17);
+    text-align: center;
+    font-size: 35px;
+  }
+
+  #colorDisplay{
+    color: white;
+     font-family: Helvetica;
+     font-size: 40px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+  }
+  
+  
+  .square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: burlywood;
+    margin: 7px;
+    border-radius: 20%;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+ 
+  #message{
+      color: white;
+      font-size: 20px;
+  
+  }
+  
+  #stripe{
+      background-color: rgb(0, 0, 0);
+      height: 30px;
+      text-align: center;
+      padding: 5px;
+  }
+  
+  .selected{
+    background-color: rgb(255, 0, 0);
+  }
+
+  button{
+    border-radius: 10px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: black;
+    border: 2px rgb(0,255,17) solid;
+    transition: 0.3s;
+  }
+  button:hover {
+    box-shadow: 0px 0px 30px 15px rgb(0,178,11, 0.3); 
+    transition-delay: 0s;
+    padding: 10px;
+    background-color:  rgb(0,255,17);
+
+  }
